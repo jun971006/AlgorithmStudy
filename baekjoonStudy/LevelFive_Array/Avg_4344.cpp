@@ -24,8 +24,6 @@ int main()
 		}
 		printf("%.3f\%%\n", cnt/N*100);
 		
-		
-		
 	}
 	return 0;
 }
