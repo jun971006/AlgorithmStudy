@@ -12,6 +12,7 @@ int main()
 	for(int i=0; i<str.size(); i++){
 		str[i] = toupper(str[i]);
 	}
+	
 	for(int i=0; i<str.size(); i++){
 		A[int(str[i])-int('A')] += 1;
 	}
